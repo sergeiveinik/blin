@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.audi {
+    display: flex;
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+p {
+    font-size: 35;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.audi>div {
+    width: 100px;
+    height: 100px;
+    flex: 1;
+}
+
+.audi1 {
+    background-color: #272727;
+}
+
+.audi2 {
+    background-color: #fed766;
+}
+
+.audi3 {
+    background-color: #009fb7;
+}
+
+.audi4 {
+    background-color: #696773;
+}
+
+.audi5 {
+    background-color: #eff1f3;
+}
